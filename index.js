@@ -7,7 +7,7 @@ module.exports = function long2ip(long) {
   const MAX_IP_IN_LONG = 4294967295; // 255.255.255.255
   const MIN_IP_IN_LONG = 0; // 0.0.0.0
 
-  if (long > MAX_IP_IN_LONG || long < MIN_IP_IN_LONG) {
+  if (typeof long !== 'number' || long > MAX_IP_IN_LONG || long < MIN_IP_IN_LONG) {
     return false;
   }
 
