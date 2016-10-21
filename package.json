@@ -1,0 +1,23 @@
+{
+  "name": "long2ip",
+  "version": "1.0.0",
+  "description": "PHP's long2ip in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legend80s/long2ip.git"
+  },
+  "keywords": [
+    "long2ip",
+    "php"
+  ],
+  "author": "legend80s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legend80s/long2ip/issues"
+  },
+  "homepage": "https://github.com/legend80s/long2ip#readme"
+}
