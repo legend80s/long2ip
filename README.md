@@ -1,7 +1,7 @@
 # long2ip
-PHP's long2ip in JavaScript
+PHP's long2ip in JavaScript.
 
-modified based on http://locutus.io/php/long2ip/
+Modified based on http://locutus.io/php/long2ip/.
 
 ## Features
 - Simple
