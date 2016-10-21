@@ -12,6 +12,14 @@ describe('long2ip', () => {
     expect(result).to.equal(expected);
   });
 
+  it('should equal "127.0.0.1" when input is 2130706433', () => {
+    const input = 2130706433;
+    const result = long2ip(input);
+    const expected = '127.0.0.1';
+
+    expect(result).to.equal(expected);
+  });
+
   it('float will be rounded', () => {
     const input = 3221234342.1;
     const result = long2ip(input);
