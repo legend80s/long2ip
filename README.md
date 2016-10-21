@@ -1,4 +1,6 @@
 # long2ip
+[![npm version](https://badge.fury.io/js/long2ip.svg)](https://badge.fury.io/js/long2ip)
+
 PHP's long2ip in JavaScript.
 
 Modified based on http://locutus.io/php/long2ip/.
